@@ -19,8 +19,8 @@ export const treatments: Treatment[] = [
     slug: "akupunktur",
     title: "Akupunktur",
     shortDescription: "Over 5.000 år gammel behandling fra traditionel kinesisk medicin. Tynde nåle stimulerer kroppens energibaner for smertelindring, afslapning og balance.",
-    duration: "60–75 min",
-    estimatedPrice: "550 kr.",
+    duration: "ca. 30 min",
+    estimatedPrice: "325 kr.",
     icon: "✦",
     content: [
       {
@@ -38,7 +38,7 @@ export const treatments: Treatment[] = [
           "Du bliver lagt behagelig på en briks",
           "Jeg forklarer hele vejen hvad jeg gør så du kan føle dig tryg",
           "Tynde nåle sættes forsigtigt i huden",
-          "Nålene sidder i kroppen i cirka 30-45 minutter"
+          "Nålene sidder i kroppen i cirka 20-30 minutter"
         ],
       },
       {
@@ -67,20 +67,8 @@ export const treatments: Treatment[] = [
           "Og meget mere..."
         ],
         paragraphs: [
-          "Giv endelig et kald hvis du er i tvivl om jeg kan hjælpe. Effekten kan variere fra person til person, og det er vigtigt at søge en uddannet behandler."
-        ],
-      },
-      {
-        heading: "Cupping (kopping)",
-        paragraphs: [
-          "Cupping er en god og effektiv behandling efter akupunktur, især ved nakke-, skulder- og rygsmerter. Ved cupping placeres kopper på huden og der skabes undertryk (vakuum), så huden og det øverste bindevæv suges op i koppen."
-        ],
-        bullets: [
-          "Lindrer muskelspændinger og smerter",
-          "Øger blodcirkulationen",
-          "Fremmer restitution efter sport",
-          "Kan lindre hovedpine og migræne",
-          "Dybt afslappende"
+          "Giv endelig et kald hvis du er i tvivl om jeg kan hjælpe. Effekten kan variere fra person til person, og det er vigtigt at søge en uddannet behandler.",
+          "Ved længere forløb eller vedligeholdelse: 250 kr."
         ],
       },
     ],
@@ -89,8 +77,8 @@ export const treatments: Treatment[] = [
     slug: "ansigtsakupunktur",
     title: "Ansigtsakupunktur",
     shortDescription: "Kosmetisk akupunktur der stimulerer hudens kollagenproduktion og reducerer fine linjer – et naturligt alternativ til Botox og fillers.",
-    duration: "45–60 min",
-    estimatedPrice: "650 kr.",
+    duration: "ca. 30 min",
+    estimatedPrice: "250 kr.",
     icon: "❋",
     content: [
       {
@@ -117,7 +105,7 @@ export const treatments: Treatment[] = [
           "Indledende samtale om helbred og ønsker",
           "Nåle placeres i specifikke punkter i ansigtet",
           "Ofte kombineret med nåle på kroppen for helhedsvirkning",
-          "Behandlingen varer typisk 45–60 minutter"
+          "Behandlingen varer typisk 30 minutter"
         ],
         paragraphs: ["Man anbefaler ofte et forløb på 6–10 behandlinger for synlige resultater, og derefter 1 gang om måneden for vedligeholdelse."],
       },
@@ -136,8 +124,8 @@ export const treatments: Treatment[] = [
     slug: "japansk-ansigtsloftning",
     title: "Japansk Ansigtsløftning",
     shortDescription: "Naturligt facelift der kombinerer ansigtsmassage, akupressur og lymfedrænage. Løfter og opstrammer ansigtet uden kirurgi.",
-    duration: "60 min",
-    estimatedPrice: "700 kr.",
+    duration: "ca. 60 min",
+    estimatedPrice: "550 kr.",
     icon: "✿",
     content: [
       {
@@ -183,15 +171,15 @@ export const treatments: Treatment[] = [
     ],
   },
   {
-    slug: "luksus-ansigtsmassage",
-    title: "Luksus Ansigtsmassage",
+    slug: "luksus-ansigtsbehandling",
+    title: "Luksus Ansigtsbehandling",
     shortDescription: "Luksuriøs ansigtsbehandling med afrensning, forkur og dybdegående massage. 90 minutters ren forkælelse for huden.",
-    duration: "90 min",
-    estimatedPrice: "750 kr.",
+    duration: "ca. 90 min",
+    estimatedPrice: "675 kr.",
     icon: "✧",
     content: [
       {
-        heading: "Luksus ansigtsmassage med afrensning og forkur",
+        heading: "Luksus ansigtsbehandling med afrensning og forkur",
         paragraphs: [
           "En luksuriøs og effektiv ansigtsbehandling, der både plejer huden og giver dyb afslapning."
         ],
@@ -217,11 +205,96 @@ export const treatments: Treatment[] = [
     ],
   },
   {
+    slug: "diamant-slibning",
+    title: "Diamant Slibning",
+    shortDescription: "Avanceret hudfornyelse med diamantslibning der fjerner døde hudceller og stimulerer cellefornyelsen for en glattere og mere strålende hud.",
+    duration: "ca. 120 min",
+    estimatedPrice: "795 kr.",
+    icon: "💎",
+    content: [
+      {
+        heading: "Hvad er diamant slibning?",
+        paragraphs: [
+          "Diamant slibning (diamant mikrodermabrasion) er en skånsom og effektiv hudplejebehandling, hvor et diamantbesat hoved forsigtigt eksfolierer det yderste lag af huden. Behandlingen fjerner døde hudceller, urenheder og fine linjer, og stimulerer hudens naturlige cellefornyelse."
+        ],
+      },
+      {
+        heading: "Hvordan foregår behandlingen?",
+        bullets: [
+          "Huden renses grundigt inden behandlingen",
+          "Et diamantbesat hoved føres henover huden med let tryk",
+          "Døde hudceller suges væk samtidig med slibningen",
+          "Afslutning med beroligende serum og fugtighedscreme",
+          "Behandlingen varer ca. 120 minutter inkl. efterbehandling"
+        ],
+      },
+      {
+        heading: "Hvad er det godt for?",
+        bullets: [
+          "Forfinelse af porer og hudtekstur",
+          "Reduktion af fine linjer og rynker",
+          "Behandling af pigmentforandringer og solfejl",
+          "Forbedring af ar og acne-ar",
+          "Øget optagelse af hudplejeprodukter",
+          "Mere strålende og ungdommeligt udseende"
+        ],
+      },
+      {
+        heading: "Hvem kan få behandlingen?",
+        paragraphs: [
+          "Diamant slibning egner sig til de fleste hudtyper. Det anbefales at undgå direkte sol i dagene efter behandlingen og at bruge solbeskyttelse. Ved meget følsom hud eller aktive hudproblemer bør du konsultere behandleren forinden."
+        ],
+      },
+    ],
+  },
+  {
+    slug: "cupping",
+    title: "Cupping (Kopping)",
+    shortDescription: "Traditionel behandling med kopper der skaber undertryk på huden. Lindrer muskelspændinger, øger blodcirkulationen og fremmer restitution.",
+    duration: "ca. 15–20 min",
+    estimatedPrice: "200 kr.",
+    icon: "⊙",
+    content: [
+      {
+        heading: "Hvad er cupping?",
+        paragraphs: [
+          "Cupping (kopping) er en traditionel behandlingsform med rødder i kinesisk medicin. Ved cupping placeres kopper på huden, og der skabes et undertryk (vakuum), så huden og det øverste bindevæv suges op i koppen. Dette øger blodcirkulationen lokalt og hjælper med at løsne spændinger."
+        ],
+      },
+      {
+        heading: "Hvordan foregår en behandling?",
+        bullets: [
+          "Kopper placeres på de områder der har behov – typisk ryg, nakke eller skuldre",
+          "Undertryk skabes enten med varme eller mekanisk",
+          "Kopperne sidder på i 5–15 minutter",
+          "Behandlingen varer ca. 15–20 minutter i alt"
+        ],
+      },
+      {
+        heading: "Hvad er cupping godt for?",
+        bullets: [
+          "Lindrer muskelspændinger og smerter",
+          "Øger blodcirkulationen",
+          "Fremmer restitution efter sport",
+          "Kan lindre hovedpine og migræne",
+          "Dybt afslappende",
+          "Mindsker inflammation"
+        ],
+      },
+      {
+        heading: "Er der bivirkninger?",
+        paragraphs: [
+          "Der kan forekomme midlertidige runde mærker på huden, som typisk forsvinder efter et par dage. Behandlingen bør undgås ved blødningsforstyrrelser eller åbne sår."
+        ],
+      },
+    ],
+  },
+  {
     slug: "garra-rufa",
     title: "Garra Rufa Fiskespa",
     shortDescription: "Unik spa-oplevelse hvor små Garra Rufa-fisk eksfolierer huden på dine fødder og efterlader dem silkebløde.",
-    duration: "15–30 min",
-    estimatedPrice: "250 kr.",
+    duration: "30 min",
+    estimatedPrice: "85 kr.",
     icon: "🐟",
     content: [
       {
@@ -236,7 +309,7 @@ export const treatments: Treatment[] = [
           "Du vasker fødderne grundigt først",
           "Du sætter fødderne i et bassin med mange Garra Rufa-fisk",
           "Fiskene napper forsigtigt i det yderste lag døde hudceller",
-          "Behandlingen varer typisk 15–30 minutter"
+          "Behandlingen varer 30 minutter"
         ],
         paragraphs: ["Det kilder for mange – nogle oplever det som en let prikkende fornemmelse. Det føles som at gå på puder efter behandlingen."],
       },
@@ -250,9 +323,52 @@ export const treatments: Treatment[] = [
         ],
       },
       {
+        heading: "Priser",
+        paragraphs: [
+          "Enkelt behandling (30 min): 85 kr. 10-turskort: 550 kr."
+        ],
+      },
+      {
         heading: "Sikkerhed",
         paragraphs: [
           "Klinikkens bassin har en pumpe der filtrerer vandet ca. 4 gange i døgnet. Fødderne afvaskes grundigt inden brug. Ikke egnet for personer med sår, hudsygdom, nedsat immunforsvar eller diabetes."
+        ],
+      },
+    ],
+  },
+  {
+    slug: "massagestol",
+    title: "Massagestol",
+    shortDescription: "Slap af i vores avancerede massagestol der bearbejder hele kroppen med varme og massage. Perfekt til en hurtig pause i hverdagen.",
+    duration: "20 min",
+    estimatedPrice: "45 kr.",
+    icon: "🪑",
+    content: [
+      {
+        heading: "Hvad er massagestolbehandling?",
+        paragraphs: [
+          "Vores professionelle massagestol tilbyder en fuldkropsmassage der kombinerer forskellige massageteknikker. Stolen bearbejder ryg, nakke, skuldre, arme og ben med præcise bevægelser og behagelig varme."
+        ],
+      },
+      {
+        heading: "Hvad kan du forvente?",
+        bullets: [
+          "20 minutters fuldkropsmassage",
+          "Forskellige massageprogrammer tilpasset dine behov",
+          "Varmebehandling for ekstra afslapning",
+          "Bearbejdning af spændinger i ryg, nakke og skuldre"
+        ],
+      },
+      {
+        heading: "Hvem er det for?",
+        paragraphs: [
+          "Massagestolen er perfekt til dig, der ønsker en hurtig og effektiv afspænding. Den er også ideel som supplement til andre behandlinger – fx efter infrarød sauna og isbad."
+        ],
+      },
+      {
+        heading: "Priser",
+        paragraphs: [
+          "Enkelt behandling (20 min): 45 kr. 10-turskort: 350 kr."
         ],
       },
     ],
@@ -262,7 +378,7 @@ export const treatments: Treatment[] = [
     title: "Infrarød Sauna & Isbad",
     shortDescription: "Dybdegående smertelindring, detox og restitution med infrarød sauna – eventuelt kombineret med forfriskende isbad.",
     duration: "30–60 min",
-    estimatedPrice: "350 kr.",
+    estimatedPrice: "100 kr.",
     icon: "🔥",
     content: [
       {
@@ -295,14 +411,20 @@ export const treatments: Treatment[] = [
           "Øget energi og vågenhed"
         ],
       },
+      {
+        heading: "Priser",
+        paragraphs: [
+          "Infrarød sauna (30 min): 100 kr. Isbad (30 min): 100 kr. Infrarød sauna & isbad kombi (60 min): 200 kr. – plus 20 min i massagestolen."
+        ],
+      },
     ],
   },
   {
     slug: "bars",
     title: "BARS-behandling",
     shortDescription: "Blid berøring på 32 punkter på hovedet frigør begrænsende mønstre og skaber dyb mental ro og klarhed.",
-    duration: "60 min",
-    estimatedPrice: "500 kr.",
+    duration: "ca. 45 min",
+    estimatedPrice: "350 kr.",
     icon: "◯",
     content: [
       {
@@ -316,7 +438,7 @@ export const treatments: Treatment[] = [
         bullets: [
           "Du ligger fuldt påklædt på en briks",
           "Behandleren holder let fingrene på forskellige punkter på hovedet",
-          "En session varer typisk 60 minutter",
+          "En session varer typisk 45 minutter",
           "Det opleves ofte som meget afslappende"
         ],
       },
@@ -337,8 +459,8 @@ export const treatments: Treatment[] = [
     slug: "oreakupunktur",
     title: "Øreakupunktur",
     shortDescription: "Stimulering af bestemte punkter på øret påvirker krop og psyke. Effektiv mod stress, smerter, søvnproblemer og afvænning.",
-    duration: "45–60 min",
-    estimatedPrice: "450 kr.",
+    duration: "30–45 min",
+    estimatedPrice: "250 kr.",
     icon: "◎",
     content: [
       {
@@ -378,6 +500,50 @@ export const treatments: Treatment[] = [
           "Let ømhed",
           "Små blå mærker",
           "Kortvarig svimmelhed"
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zoneterapi",
+    title: "Zoneterapi",
+    shortDescription: "Traditionel behandlingsform der stimulerer reflekszoner på fødderne for at genoprette balance i kroppen og fremme naturlig selvhelbredelse.",
+    duration: "45 min",
+    estimatedPrice: "450 kr.",
+    icon: "🦶",
+    content: [
+      {
+        heading: "Hvad er zoneterapi?",
+        paragraphs: [
+          "Zoneterapi er en holistisk behandlingsform, hvor behandleren stimulerer bestemte reflekszoner på fødderne. Hver zone svarer til et bestemt organ eller område i kroppen. Ved at massere og trykke på disse zoner kan man genoprette balance og fremme kroppens naturlige selvhelbredelse."
+        ],
+      },
+      {
+        heading: "Hvordan foregår en behandling?",
+        bullets: [
+          "Indledende samtale om helbred og eventuelle udfordringer",
+          "Du ligger behageligt på en briks med bare fødder",
+          "Behandleren masserer og trykker systematisk på reflekszonerne",
+          "Behandlingen varer ca. 45 minutter",
+          "Afslutning med beroligende teknikker"
+        ],
+      },
+      {
+        heading: "Hvad er zoneterapi godt for?",
+        bullets: [
+          "Stress og spændinger",
+          "Fordøjelsesproblemer",
+          "Hovedpine og migræne",
+          "Hormonel ubalance",
+          "Søvnbesvær",
+          "Smerter i ryg, nakke og skuldre",
+          "Generel velvære og balance"
+        ],
+      },
+      {
+        heading: "Hvem kan få zoneterapi?",
+        paragraphs: [
+          "Zoneterapi er velegnet til de fleste. Det er en skånsom behandling, der kan tilpasses den enkeltes behov. Ved graviditet, blodpropper eller alvorlige fodsygdomme bør du konsultere din læge først."
         ],
       },
     ],

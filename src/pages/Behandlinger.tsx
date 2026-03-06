@@ -11,16 +11,24 @@ import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
+import cuppingImg from "@/assets/cupping-treatment.jpg";
+import massagestolImg from "@/assets/massagestol.jpg";
+import zoneterapiImg from "@/assets/zoneterapi.jpg";
 
 const imageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
   ansigtsakupunktur: earAcuImg,
   "japansk-ansigtsloftning": zenImg,
-  "luksus-ansigtsmassage": faceMaskImg,
+  "luksus-ansigtsbehandling": faceMaskImg,
+  "diamant-slibning": diamantSlibningImg,
+  cupping: cuppingImg,
   "garra-rufa": garraRufaImg,
+  massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
   oreakupunktur: sanziTreatmentImg,
+  zoneterapi: zoneterapiImg,
 };
 
 const Behandlinger = () => {
