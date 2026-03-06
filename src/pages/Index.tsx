@@ -42,6 +42,8 @@ const fadeUp = {
 };
 
 const Index = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+
   return (
     <>
       {/* Hero */}
