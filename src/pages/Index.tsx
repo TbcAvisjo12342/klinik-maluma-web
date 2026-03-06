@@ -4,6 +4,33 @@ import { treatments } from "@/data/treatments";
 import { ArrowRight, Star, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import heroSpa from "@/assets/hero-spa.jpg";
+import hopProducts from "@/assets/hop-products.jpg";
+import bjorkProducts from "@/assets/bjork-products.png";
+import sanziProducts from "@/assets/sanzi-products.jpg";
+import tinaImg from "@/assets/tina.png";
+import receptionImg from "@/assets/reception.jpg";
+
+import akupunkturImg from "@/assets/akupunktur.jpg";
+import garraRufaImg from "@/assets/garra-rufa.jpg";
+import saunaImg from "@/assets/sauna.jpg";
+import zenImg from "@/assets/zen-texture.jpg";
+import faceMaskImg from "@/assets/face-mask.jpg";
+import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+import treatmentBedImg from "@/assets/treatment-bed.jpg";
+
+const treatmentImageMap: Record<string, string> = {
+  akupunktur: akupunkturImg,
+  ansigtsakupunktur: earAcuImg,
+  "japansk-ansigtsloftning": zenImg,
+  "luksus-ansigtsmassage": faceMaskImg,
+  "garra-rufa": garraRufaImg,
+  "infrarod-sauna-isbad": saunaImg,
+  bars: treatmentBedImg,
+  oreakupunktur: sanziTreatmentImg,
+};
+
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
@@ -18,7 +45,10 @@ const Index = () => {
     <>
       {/* Hero */}
       <section className="relative py-24 md:py-36 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-secondary via-background to-accent/30" />
+        <div className="absolute inset-0">
+          <img src={heroSpa} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -75,8 +105,53 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Treatments grid */}
+      {/* About Tina */}
       <section className="py-20 md:py-28">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative"
+            >
+              <div className="rounded-2xl overflow-hidden aspect-[4/5]">
+                <img src={tinaImg} alt="Tina Godtfeldt – indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
+              </div>
+              <div className="absolute -bottom-4 -right-4 rounded-xl overflow-hidden w-40 h-28 border-4 border-background shadow-lg hidden md:block">
+                <img src={receptionImg} alt="Klinik Maluma reception" className="w-full h-full object-cover" />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <span className="text-sm font-medium tracking-widest uppercase text-primary mb-3 block">Om Tina</span>
+              <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
+                Passion for dit velbefindende
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Tina Godtfeldt er uddannet akupunktør og har over 6 års erfaring med holistiske behandlinger. 
+                Med en bred vifte af certificeringer inden for akupunktur, ansigtsbehandlinger og BARS 
+                tilbyder hun skræddersyede behandlinger i trygge, rolige rammer.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                I Klinik Maluma handler det om at lytte til din krop og finde den rette balance. 
+                Alle behandlinger udføres med omhu, tid og nærvær.
+              </p>
+              <Button asChild variant="outline" className="rounded-full px-6">
+                <Link to="/kontakt">Lær mig at kende <ArrowRight className="w-4 h-4 ml-1" /></Link>
+              </Button>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Treatments grid */}
+      <section className="py-20 md:py-28 bg-card">
         <div className="container mx-auto px-4">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
@@ -99,17 +174,26 @@ const Index = () => {
               >
                 <Link
                   to={`/behandlinger/${t.slug}`}
-                  className="group block h-full rounded-xl border bg-card p-6 hover:shadow-lg hover:border-primary/30 transition-all duration-300"
+                  className="group block h-full rounded-xl border bg-background overflow-hidden hover:shadow-lg hover:border-primary/30 transition-all duration-300"
                 >
-                  <span className="text-3xl mb-4 block">{t.icon}</span>
-                  <h3 className="font-display text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
-                    {t.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
-                    {t.shortDescription}
-                  </p>
-                  <div className="mt-4 text-xs text-primary font-medium flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Læs mere <ArrowRight className="w-3 h-3" />
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img
+                      src={treatmentImageMap[t.slug]}
+                      alt={t.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-display text-lg font-semibold mb-1.5 group-hover:text-primary transition-colors">
+                      {t.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2">
+                      {t.shortDescription}
+                    </p>
+                    <div className="mt-3 text-xs text-primary font-medium flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      Læs mere <ArrowRight className="w-3 h-3" />
+                    </div>
                   </div>
                 </Link>
               </motion.div>
@@ -119,7 +203,7 @@ const Index = () => {
       </section>
 
       {/* Products */}
-      <section className="py-20 bg-card">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
@@ -129,23 +213,40 @@ const Index = () => {
               Kvalitetsprodukter der bruges i behandlingerne og kan købes med hjem
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
-              { name: "Hop", desc: "Shampoo og plejeprodukter" },
-              { name: "Bjørk", desc: "Shampoo, styling og pleje" },
-              { name: "Sanzi Beauty", desc: "Hudplejeserie – bruges til alle behandlinger" },
+              { name: "Hop", desc: "Shampoo og plejeprodukter", img: hopProducts },
+              { name: "Bjørk", desc: "Shampoo, styling og pleje", img: bjorkProducts },
+              { name: "Sanzi Beauty", desc: "Hudplejeserie – bruges til alle behandlinger", img: sanziProducts },
             ].map((p) => (
-              <div key={p.name} className="rounded-xl border bg-background p-6 text-center">
-                <h3 className="font-display text-lg font-semibold mb-2">{p.name}</h3>
-                <p className="text-sm text-muted-foreground">{p.desc}</p>
-              </div>
+              <motion.div
+                key={p.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="rounded-xl border bg-card overflow-hidden"
+              >
+                <div className="aspect-[4/3] overflow-hidden">
+                  <img
+                    src={p.img}
+                    alt={`${p.name} produkter`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-6 text-center">
+                  <h3 className="font-display text-xl font-semibold mb-2">{p.name}</h3>
+                  <p className="text-sm text-muted-foreground">{p.desc}</p>
+                </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-card">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
             Klar til at booke?

@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import klinikkenImg from "@/assets/klinikken.png";
 
 const Kontakt = () => {
   return (
@@ -80,17 +81,22 @@ const Kontakt = () => {
             </div>
 
             {/* Map */}
-            <div className="rounded-xl overflow-hidden border h-80 md:h-auto md:min-h-[400px]">
-              <iframe
-                title="Klinik Maluma placering"
-                src="https://maps.google.com/maps?q=Klinik+Maluma,+Sibberupvej+13,+4684+Holmegaard,+Denmark&t=&z=16&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+            <div className="space-y-6">
+              <div className="rounded-xl overflow-hidden border h-64 md:h-80">
+                <iframe
+                  title="Klinik Maluma placering"
+                  src="https://maps.google.com/maps?q=Klinik+Maluma,+Sibberupvej+13,+4684+Holmegaard,+Denmark&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border">
+                <img src={klinikkenImg} alt="Klinik Maluma set udefra" className="w-full h-48 object-cover" loading="lazy" />
+              </div>
             </div>
           </div>
         </div>
