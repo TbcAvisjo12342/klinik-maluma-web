@@ -120,9 +120,12 @@ const Index = () => {
               <div className="rounded-2xl overflow-hidden aspect-[4/5]">
                 <img src={tinaImg} alt="Tina Godtfeldt – indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
               </div>
-              <div className="absolute -bottom-4 -right-4 rounded-xl overflow-hidden w-40 h-28 border-4 border-background shadow-lg hidden md:block">
+              <button
+                onClick={() => setLightboxOpen(true)}
+                className="absolute -bottom-4 -right-4 rounded-xl overflow-hidden w-40 h-28 border-4 border-background shadow-lg hidden md:block cursor-pointer hover:scale-105 transition-transform"
+              >
                 <img src={receptionImg} alt="Klinik Maluma reception" className="w-full h-full object-cover" />
-              </div>
+              </button>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 30 }}
