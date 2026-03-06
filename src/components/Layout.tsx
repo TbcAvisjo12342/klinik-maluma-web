@@ -112,7 +112,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 Holistisk velvære og akupunktur i trygge rammer. Drevet af Tina Godtfeldt med over 6 års erfaring.
               </p>
               <div className="flex items-center gap-1 mt-3">
-                <span className="text-yellow-500">★★★★★</span>
+                <span style={{ color: "hsl(45, 93%, 47%)" }}>★★★★★</span>
                 <span className="text-sm text-muted-foreground">4,9 på Google</span>
               </div>
             </div>

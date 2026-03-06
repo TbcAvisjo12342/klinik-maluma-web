@@ -59,7 +59,7 @@ const Index = () => {
       <section className="py-8 border-y bg-card">
         <div className="container mx-auto px-4 flex flex-wrap justify-center gap-8 md:gap-16 text-center">
           <div className="flex items-center gap-2">
-            <div className="flex text-yellow-500">
+            <div className="flex" style={{ color: "hsl(45, 93%, 47%)" }}>
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-current" />
               ))}
