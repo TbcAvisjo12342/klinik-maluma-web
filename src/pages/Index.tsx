@@ -11,14 +11,6 @@ import sanziProducts from "@/assets/sanzi-products.jpg";
 import tinaImg from "@/assets/tina.png";
 import receptionImg from "@/assets/reception.jpg";
 
-const treatmentImages: Record<string, string> = {
-  akupunktur: new URL("@/assets/akupunktur.jpg", import.meta.url).href,
-  "garra-rufa": new URL("@/assets/garra-rufa.jpg", import.meta.url).href,
-  "infrarod-sauna-isbad": new URL("@/assets/sauna.jpg", import.meta.url).href,
-  "japansk-ansigtsloftning": new URL("@/assets/zen-texture.jpg", import.meta.url).href,
-};
-
-// Static imports for treatment images
 import akupunkturImg from "@/assets/akupunktur.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
