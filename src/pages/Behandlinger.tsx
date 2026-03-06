@@ -3,6 +3,26 @@ import { motion } from "framer-motion";
 import { treatments } from "@/data/treatments";
 import { ArrowRight, Clock } from "lucide-react";
 
+import akupunkturImg from "@/assets/akupunktur.jpg";
+import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import zenImg from "@/assets/zen-texture.jpg";
+import faceMaskImg from "@/assets/face-mask.jpg";
+import garraRufaImg from "@/assets/garra-rufa.jpg";
+import saunaImg from "@/assets/sauna.jpg";
+import treatmentBedImg from "@/assets/treatment-bed.jpg";
+import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+
+const imageMap: Record<string, string> = {
+  akupunktur: akupunkturImg,
+  ansigtsakupunktur: earAcuImg,
+  "japansk-ansigtsloftning": zenImg,
+  "luksus-ansigtsmassage": faceMaskImg,
+  "garra-rufa": garraRufaImg,
+  "infrarod-sauna-isbad": saunaImg,
+  bars: treatmentBedImg,
+  oreakupunktur: sanziTreatmentImg,
+};
+
 const Behandlinger = () => {
   return (
     <>
@@ -28,10 +48,17 @@ const Behandlinger = () => {
               >
                 <Link
                   to={`/behandlinger/${t.slug}`}
-                  className="group flex gap-5 p-6 rounded-xl border bg-card hover:shadow-lg hover:border-primary/30 transition-all duration-300"
+                  className="group block rounded-xl border bg-card overflow-hidden hover:shadow-lg hover:border-primary/30 transition-all duration-300"
                 >
-                  <span className="text-4xl shrink-0">{t.icon}</span>
-                  <div className="flex-1 min-w-0">
+                  <div className="aspect-[16/9] overflow-hidden">
+                    <img
+                      src={imageMap[t.slug]}
+                      alt={t.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-6">
                     <h2 className="font-display text-xl font-semibold mb-1 group-hover:text-primary transition-colors">
                       {t.title}
                     </h2>

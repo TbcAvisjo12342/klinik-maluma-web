@@ -3,6 +3,26 @@ import { treatments } from "@/data/treatments";
 import { ArrowLeft, Clock, CreditCard, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import akupunkturImg from "@/assets/akupunktur.jpg";
+import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import zenImg from "@/assets/zen-texture.jpg";
+import faceMaskImg from "@/assets/face-mask.jpg";
+import garraRufaImg from "@/assets/garra-rufa.jpg";
+import saunaImg from "@/assets/sauna.jpg";
+import treatmentBedImg from "@/assets/treatment-bed.jpg";
+import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+
+const imageMap: Record<string, string> = {
+  akupunktur: akupunkturImg,
+  ansigtsakupunktur: earAcuImg,
+  "japansk-ansigtsloftning": zenImg,
+  "luksus-ansigtsmassage": faceMaskImg,
+  "garra-rufa": garraRufaImg,
+  "infrarod-sauna-isbad": saunaImg,
+  bars: treatmentBedImg,
+  oreakupunktur: sanziTreatmentImg,
+};
+
 const BehandlingDetail = () => {
   const { slug } = useParams();
   const treatment = treatments.find((t) => t.slug === slug);
@@ -18,21 +38,29 @@ const BehandlingDetail = () => {
     );
   }
 
+  const heroImage = imageMap[treatment.slug];
+
   return (
     <>
-      <section className="py-16 md:py-24 bg-gradient-to-b from-secondary/50 to-background">
-        <div className="container mx-auto px-4">
+      <section className="relative py-16 md:py-24 overflow-hidden">
+        {heroImage && (
+          <>
+            <div className="absolute inset-0">
+              <img src={heroImage} alt="" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/85 to-background/60" />
+            </div>
+          </>
+        )}
+        {!heroImage && <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 to-background" />}
+        <div className="container mx-auto px-4 relative z-10">
           <Link to="/behandlinger" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6">
             <ArrowLeft className="w-4 h-4" /> Alle behandlinger
           </Link>
-          <div className="flex items-start gap-4">
-            <span className="text-5xl">{treatment.icon}</span>
-            <div>
-              <h1 className="text-3xl md:text-5xl font-display font-semibold mb-3">{treatment.title}</h1>
-              <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" /> {treatment.duration}</span>
-                <span className="flex items-center gap-1"><CreditCard className="w-4 h-4" /> Fra {treatment.estimatedPrice}</span>
-              </div>
+          <div>
+            <h1 className="text-3xl md:text-5xl font-display font-semibold mb-3">{treatment.title}</h1>
+            <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+              <span className="flex items-center gap-1"><Clock className="w-4 h-4" /> {treatment.duration}</span>
+              <span className="flex items-center gap-1"><CreditCard className="w-4 h-4" /> Fra {treatment.estimatedPrice}</span>
             </div>
           </div>
         </div>
