@@ -584,7 +584,7 @@ export const treatments: Treatment[] = [
     title: "Radiofrekvens",
     shortDescription: "Ikke-invasiv skønhedsteknologi der opvarmer hudens dybere lag for at stimulere kollagen og elastin. Strammer huden og reducerer rynker.",
     duration: "15–30 min",
-    estimatedPrice: "fra 350 kr.",
+    estimatedPrice: "350 kr.",
     icon: "📡",
     content: [
       {
