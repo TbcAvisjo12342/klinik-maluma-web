@@ -507,7 +507,7 @@ export const treatments: Treatment[] = [
   {
     slug: "zoneterapi",
     title: "Zoneterapi",
-    shortDescription: "Traditionel behandlingsform der stimulerer reflekszoner på fødderne for at genoprette balance i kroppen og fremme naturlig selvhelbredelse.",
+    shortDescription: "Blid massage af dine fødder. Stimulerer bestemte zoner for at forbedre blodcirkulation, afslapning og kroppens egen evne til at hele.",
     duration: "45 min",
     estimatedPrice: "450 kr.",
     icon: "🦶",
@@ -515,35 +515,97 @@ export const treatments: Treatment[] = [
       {
         heading: "Hvad er zoneterapi?",
         paragraphs: [
-          "Zoneterapi er en holistisk behandlingsform, hvor behandleren stimulerer bestemte reflekszoner på fødderne. Hver zone svarer til et bestemt organ eller område i kroppen. Ved at massere og trykke på disse zoner kan man genoprette balance og fremme kroppens naturlige selvhelbredelse."
+          "Blid massage af dine fødder. Vi har utrolig mange punkter under og på vores fødder. Nogle punkter kan dog være ømme.",
+          "Man stimulerer bestemte zoner på fødderne, hvilket kan forbedre blodcirkulationen, hjælpe kroppen med at slappe af og støtte kroppens egen evne til at hele.",
+          "En meget afslappende behandling."
         ],
       },
       {
-        heading: "Hvordan foregår en behandling?",
-        bullets: [
-          "Indledende samtale om helbred og eventuelle udfordringer",
-          "Du ligger behageligt på en briks med bare fødder",
-          "Behandleren masserer og trykker systematisk på reflekszonerne",
-          "Behandlingen varer ca. 45 minutter",
-          "Afslutning med beroligende teknikker"
-        ],
-      },
-      {
-        heading: "Hvad er zoneterapi godt for?",
+        heading: "Hvad kan zoneterapi afhjælpe?",
         bullets: [
           "Stress og spændinger",
+          "Hovedpine eller migræne",
+          "Søvnproblemer",
           "Fordøjelsesproblemer",
-          "Hovedpine og migræne",
-          "Hormonel ubalance",
-          "Søvnbesvær",
-          "Smerter i ryg, nakke og skuldre",
-          "Generel velvære og balance"
+          "Hormonelle ubalancer",
+          "Smerter i kroppen",
+          "Generel afslapning og velvære"
         ],
       },
       {
         heading: "Hvem kan få zoneterapi?",
         paragraphs: [
           "Zoneterapi er velegnet til de fleste. Det er en skånsom behandling, der kan tilpasses den enkeltes behov. Ved graviditet, blodpropper eller alvorlige fodsygdomme bør du konsultere din læge først."
+        ],
+      },
+    ],
+  },
+  {
+    slug: "voksning",
+    title: "Voksning",
+    shortDescription: "Effektiv hårfjerning med varm voks. Glattere hud i 3–6 uger – hårene bliver finere over tid ved regelmæssig behandling.",
+    duration: "15–30 min",
+    estimatedPrice: "fra 250 kr.",
+    icon: "✨",
+    content: [
+      {
+        heading: "Hvad er voksning?",
+        paragraphs: [
+          "Voksning er en metode til hårfjerning, hvor man påfører varm eller kold voks på huden og trækker den af igen, så hårene rykkes ud fra roden."
+        ],
+      },
+      {
+        heading: "Hvad oplever man?",
+        bullets: [
+          "Glattere hud – håret fjernes fra roden, så huden føles glat i længere tid end ved barbering",
+          "Holder længere – resultatet varer typisk 3–6 uger, fordi håret skal vokse ud igen fra roden",
+          "Hårene kan blive finere over tid – ved regelmæssig voksning oplever mange at hårene bliver tyndere og færre",
+          "Mindre stubbe – i modsætning til barbering får man ikke de samme skarpe stubbe"
+        ],
+      },
+      {
+        heading: "Godt at vide",
+        bullets: [
+          "Det kan gøre lidt ondt 😬",
+          "Man kan få rødme eller irritation lige efter",
+          "Hårene skal være lidt lange (ca. 3–5 mm) før de kan vokses igen"
+        ],
+      },
+      {
+        heading: "Priser",
+        paragraphs: [
+          "Fra 250 kr. – f.eks. underben. Varighed 15–30 min afhængig af område."
+        ],
+      },
+    ],
+  },
+  {
+    slug: "radiofrekvens",
+    title: "Radiofrekvens",
+    shortDescription: "Ikke-invasiv skønhedsteknologi der opvarmer hudens dybere lag for at stimulere kollagen og elastin. Strammer huden og reducerer rynker.",
+    duration: "15–30 min",
+    estimatedPrice: "fra 350 kr.",
+    icon: "📡",
+    content: [
+      {
+        heading: "Hvad er radiofrekvens?",
+        paragraphs: [
+          "En radiofrekvens maskine er en ikke-invasiv skønhedsteknologi, der opvarmer hudens dybere lag for at stimulere kollagen- og elastinproduktion. Behandlingen strammer slap hud, reducerer rynker og forbedrer hudens struktur."
+        ],
+      },
+      {
+        heading: "Hovedfunktioner og fordele",
+        bullets: [
+          "Hudopstramning – opvarmning (op til 43°C) remodellerer kollagen, hvilket gør huden fastere",
+          "Anti-aging – reducerer fine linjer, rynker og rødme",
+          "Kropskonturering – reducerer strækmærker"
+        ],
+      },
+      {
+        heading: "Anbefalet forløb",
+        paragraphs: [
+          "For de bedste resultater anbefales et kurforløb på 8–12 behandlinger, som efterfølgende vedligeholdes.",
+          "15–30 min alt efter område. Fra 350 kr."
         ],
       },
     ],
