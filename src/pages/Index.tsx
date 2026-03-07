@@ -20,16 +20,28 @@ import faceMaskImg from "@/assets/face-mask.jpg";
 import earAcuImg from "@/assets/ear-acupuncture.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
+import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
+import cuppingImg from "@/assets/cupping-treatment.jpg";
+import massagestolImg from "@/assets/massagestol.jpg";
+import zoneterapiImg from "@/assets/zoneterapi.jpg";
+import voksningImg from "@/assets/voksning.jpg";
+import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
 
 const treatmentImageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
   ansigtsakupunktur: earAcuImg,
   "japansk-ansigtsloftning": zenImg,
-  "luksus-ansigtsmassage": faceMaskImg,
+  "luksus-ansigtsbehandling": faceMaskImg,
+  "diamant-slibning": diamantSlibningImg,
+  cupping: cuppingImg,
   "garra-rufa": garraRufaImg,
+  massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
   oreakupunktur: sanziTreatmentImg,
+  zoneterapi: zoneterapiImg,
+  voksning: voksningImg,
+  radiofrekvens: radiofrekvensImg,
 };
 
 const fadeUp = {
