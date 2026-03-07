@@ -545,7 +545,7 @@ export const treatments: Treatment[] = [
     title: "Voksning",
     shortDescription: "Effektiv hårfjerning med varm voks. Glattere hud i 3–6 uger – hårene bliver finere over tid ved regelmæssig behandling.",
     duration: "15–30 min",
-    estimatedPrice: "fra 250 kr.",
+    estimatedPrice: "250 kr.",
     icon: "✨",
     content: [
       {
@@ -584,7 +584,7 @@ export const treatments: Treatment[] = [
     title: "Radiofrekvens",
     shortDescription: "Ikke-invasiv skønhedsteknologi der opvarmer hudens dybere lag for at stimulere kollagen og elastin. Strammer huden og reducerer rynker.",
     duration: "15–30 min",
-    estimatedPrice: "fra 350 kr.",
+    estimatedPrice: "350 kr.",
     icon: "📡",
     content: [
       {
