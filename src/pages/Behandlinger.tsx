@@ -15,6 +15,8 @@ import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
 import massagestolImg from "@/assets/massagestol.jpg";
 import zoneterapiImg from "@/assets/zoneterapi.jpg";
+import voksningImg from "@/assets/voksning.jpg";
+import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
 
 const imageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
@@ -29,6 +31,8 @@ const imageMap: Record<string, string> = {
   bars: treatmentBedImg,
   oreakupunktur: sanziTreatmentImg,
   zoneterapi: zoneterapiImg,
+  voksning: voksningImg,
+  radiofrekvens: radiofrekvensImg,
 };
 
 const Behandlinger = () => {
