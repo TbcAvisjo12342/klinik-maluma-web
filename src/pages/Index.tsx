@@ -10,7 +10,7 @@ import hopProducts from "@/assets/hop-products.jpg";
 import bjorkProducts from "@/assets/bjork-products.png";
 import sanziProducts from "@/assets/sanzi-products.jpg";
 import tinaImg from "@/assets/tina-enhanced.jpg";
-import receptionImg from "@/assets/reception.jpg";
+import klinikkenSunnyImg from "@/assets/klinikken-sunny.jpg";
 
 import akupunkturImg from "@/assets/akupunktur.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
