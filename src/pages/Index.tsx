@@ -305,8 +305,8 @@ const Index = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              src={receptionImg}
-              alt="Klinik Maluma reception"
+              src={klinikkenSunnyImg}
+              alt="Klinik Maluma set udefra"
               className="max-w-full max-h-[85vh] rounded-xl object-contain"
               onClick={(e) => e.stopPropagation()}
             />
