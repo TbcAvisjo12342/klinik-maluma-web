@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import klinikkenImg from "@/assets/klinikken.png";
+import klinikkenSunnyImg from "@/assets/klinikken-sunny.jpg";
 
 const Kontakt = () => {
   return (
@@ -95,7 +95,7 @@ const Kontakt = () => {
                 />
               </div>
               <div className="rounded-xl overflow-hidden border">
-                <img src={klinikkenImg} alt="Klinik Maluma set udefra" className="w-full h-48 object-cover" loading="lazy" />
+                <img src={klinikkenSunnyImg} alt="Klinik Maluma set udefra" className="w-full h-48 object-cover" loading="lazy" />
               </div>
             </div>
           </div>
