@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import klinikkenImg from "@/assets/klinikken.png";
+import klinikkenSunnyImg from "@/assets/klinikken-sunny.jpg";
 
 const Kontakt = () => {
   return (
