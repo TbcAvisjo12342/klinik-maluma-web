@@ -138,7 +138,7 @@ const Index = () => {
                 onClick={() => setLightboxOpen(true)}
                 className="absolute -bottom-4 -right-4 rounded-xl overflow-hidden w-40 h-28 border-4 border-background shadow-lg hidden md:block cursor-pointer hover:scale-105 transition-transform"
               >
-                <img src={receptionImg} alt="Klinik Maluma reception" className="w-full h-full object-cover" />
+                <img src={klinikkenSunnyImg} alt="Klinik Maluma set udefra" className="w-full h-full object-cover" />
               </button>
             </motion.div>
             <motion.div
