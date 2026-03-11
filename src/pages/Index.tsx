@@ -147,7 +147,7 @@ const Index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <span className="text-sm font-medium tracking-widest uppercase text-primary mb-3 block">Om Tina</span>
+              <span className="text-sm font-medium tracking-widest uppercase text-primary mb-3 block">Om os</span>
               <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
                 Passion for dit velbefindende
               </h2>
