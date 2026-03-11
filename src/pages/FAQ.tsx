@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Hvad er jeres åbningstider?",
-    a: "Klinik Maluma har kun åbent efter aftale, men Tina er meget fleksibel. Hvis hun er optaget af en klient og ikke lige tager telefonen, så send gerne en SMS.",
+    a: "Klinik Maluma har kun åbent efter aftale, men vi er meget fleksible. Hvis vi er optaget af en klient og ikke lige tager telefonen, så send gerne en SMS.",
   },
   {
     q: "Gør akupunktur ondt?",
