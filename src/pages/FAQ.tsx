@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Kan akupunktur kombineres med anden behandling?",
-    a: "Ja, mange af behandlingerne kan kombineres. For eksempel kan akupunktur suppleres med cupping for ekstra effekt. Tina hjælper dig med at finde den bedste kombination.",
+    a: "Ja, mange af behandlingerne kan kombineres. For eksempel kan akupunktur suppleres med cupping for ekstra effekt. Vi hjælper dig med at finde den bedste kombination.",
   },
   {
     q: "Er der nogen der ikke bør få akupunktur?",
