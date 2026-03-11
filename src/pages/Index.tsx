@@ -81,7 +81,7 @@ const Index = () => {
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
               Klinik Maluma tilbyder akupunktur, ansigtsbehandlinger, BARS og
-              meget mere i trygge, rolige rammer. Drevet af Tina Godtfeldt med
+              meget mere i trygge, rolige rammer. Drevet med
               hjerte for dit velbefindende.
             </p>
             <div className="flex flex-wrap gap-4">
