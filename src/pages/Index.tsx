@@ -17,19 +17,20 @@ import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
-import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
-import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
+import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
-import massagestolImg from "@/assets/massagestol.jpg";
-import zoneterapiImg from "@/assets/zoneterapi.jpg";
+import massagestolImg from "@/assets/massagestol-new.png";
+import zoneterapiImg from "@/assets/zoneterapi-new.jpg";
 import voksningImg from "@/assets/voksning.jpg";
 import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
+import diplomerImg from "@/assets/diplomer.jpg";
 
 const treatmentImageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
-  ansigtsakupunktur: earAcuImg,
+  ansigtsakupunktur: ansigtsakupunkturImg,
   "japansk-ansigtsloftning": zenImg,
   "luksus-ansigtsbehandling": faceMaskImg,
   "diamant-slibning": diamantSlibningImg,
@@ -138,7 +139,7 @@ const Index = () => {
                 onClick={() => setLightboxOpen(true)}
                 className="absolute -bottom-4 -right-4 rounded-xl overflow-hidden w-40 h-28 border-4 border-background shadow-lg hidden md:block cursor-pointer hover:scale-105 transition-transform"
               >
-                <img src={klinikkenSunnyImg} alt="Klinik Maluma set udefra" className="w-full h-full object-cover" />
+                <img src={diplomerImg} alt="Diplomer og certificeringer" className="w-full h-full object-cover" />
               </button>
             </motion.div>
             <motion.div
@@ -305,8 +306,8 @@ const Index = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              src={klinikkenSunnyImg}
-              alt="Klinik Maluma set udefra"
+              src={diplomerImg}
+              alt="Diplomer og certificeringer"
               className="max-w-full max-h-[85vh] rounded-xl object-contain"
               onClick={(e) => e.stopPropagation()}
             />

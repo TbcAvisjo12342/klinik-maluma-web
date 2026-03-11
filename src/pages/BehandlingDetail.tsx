@@ -4,23 +4,23 @@ import { ArrowLeft, Clock, CreditCard, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import akupunkturImg from "@/assets/akupunktur.jpg";
-import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
-import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
+import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
-import massagestolImg from "@/assets/massagestol.jpg";
-import zoneterapiImg from "@/assets/zoneterapi.jpg";
+import massagestolImg from "@/assets/massagestol-new.png";
+import zoneterapiImg from "@/assets/zoneterapi-new.jpg";
 import voksningImg from "@/assets/voksning.jpg";
 import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
 
 const imageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
-  ansigtsakupunktur: earAcuImg,
+  ansigtsakupunktur: ansigtsakupunkturImg,
   "japansk-ansigtsloftning": zenImg,
   "luksus-ansigtsbehandling": faceMaskImg,
   "diamant-slibning": diamantSlibningImg,
