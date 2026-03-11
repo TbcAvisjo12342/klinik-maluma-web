@@ -120,7 +120,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Tina */}
+      {/* About Us */}
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
