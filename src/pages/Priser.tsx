@@ -9,7 +9,7 @@ const Priser = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-display font-semibold mb-4">Priser</h1>
           <p className="text-lg text-muted-foreground max-w-lg">
-            Her finder du en oversigt over priser. Kontakt Tina for præcise priser og pakketilbud.
+            Her finder du en oversigt over priser. Kontakt os for præcise priser og pakketilbud.
           </p>
         </div>
       </section>

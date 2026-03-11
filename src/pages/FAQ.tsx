@@ -8,11 +8,11 @@ import {
 const faqs = [
   {
     q: "Hvordan booker jeg en tid?",
-    a: "Ring til Tina på 40 55 84 51 eller send en SMS. Du kan også skrive på Messenger eller sende en mail til klinik.maluma@gmail.com. Tina er meget fleksibel med tider.",
+    a: "Ring til os på 40 55 84 51 eller send en SMS. Du kan også skrive på Messenger eller sende en mail til klinik.maluma@gmail.com. Vi er meget fleksible med tider.",
   },
   {
     q: "Hvad er jeres åbningstider?",
-    a: "Klinik Maluma har kun åbent efter aftale, men Tina er meget fleksibel. Hvis hun er optaget af en klient og ikke lige tager telefonen, så send gerne en SMS.",
+    a: "Klinik Maluma har kun åbent efter aftale, men vi er meget fleksible. Hvis vi er optaget af en klient og ikke lige tager telefonen, så send gerne en SMS.",
   },
   {
     q: "Gør akupunktur ondt?",
@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     q: "Hvor mange behandlinger har jeg brug for?",
-    a: "Det varierer fra person til person og afhænger af behandlingstypen. For ansigtsakupunktur anbefales typisk 6-10 behandlinger, mens andre behandlinger kan give effekt efter én gang. Tina rådgiver dig ved den første konsultation.",
+    a: "Det varierer fra person til person og afhænger af behandlingstypen. For ansigtsakupunktur anbefales typisk 6-10 behandlinger, mens andre behandlinger kan give effekt efter én gang. Vi rådgiver dig ved den første konsultation.",
   },
   {
     q: "Kan akupunktur kombineres med anden behandling?",
-    a: "Ja, mange af behandlingerne kan kombineres. For eksempel kan akupunktur suppleres med cupping for ekstra effekt. Tina hjælper dig med at finde den bedste kombination.",
+    a: "Ja, mange af behandlingerne kan kombineres. For eksempel kan akupunktur suppleres med cupping for ekstra effekt. Vi hjælper dig med at finde den bedste kombination.",
   },
   {
     q: "Er der nogen der ikke bør få akupunktur?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Hvad skal jeg gøre før en behandling?",
-    a: "Du behøver ikke forberede dig på noget særligt. Spis gerne et let måltid et par timer inden og undgå alkohol. Bær løstsiddende tøj for nemmere adgang til akupunkturpunkterne.",
+    a: "Du behøver ikke forberede dig på noget særligt. Spis gerne et let måltid et par timer inden, drik rigeligt med vand og undgå alkohol. Bær løstsiddende tøj for nemmere adgang til akupunkturpunkterne.",
   },
   {
     q: "Kan jeg købe produkter i klinikken?",

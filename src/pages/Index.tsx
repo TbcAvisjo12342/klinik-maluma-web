@@ -81,7 +81,7 @@ const Index = () => {
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
               Klinik Maluma tilbyder akupunktur, ansigtsbehandlinger, BARS og
-              meget mere i trygge, rolige rammer. Drevet af Tina Godtfeldt med
+              meget mere i trygge, rolige rammer. Drevet med
               hjerte for dit velbefindende.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -120,7 +120,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Tina */}
+      {/* About Us */}
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
@@ -132,7 +132,7 @@ const Index = () => {
               className="relative"
             >
               <div className="rounded-2xl overflow-hidden aspect-[4/5]">
-                <img src={tinaImg} alt="Tina Godtfeldt – indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
+                <img src={tinaImg} alt="Indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
               </div>
               <button
                 onClick={() => setLightboxOpen(true)}
@@ -147,14 +147,14 @@ const Index = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <span className="text-sm font-medium tracking-widest uppercase text-primary mb-3 block">Om Tina</span>
+              <span className="text-sm font-medium tracking-widest uppercase text-primary mb-3 block">Om os</span>
               <h2 className="text-3xl md:text-4xl font-display font-semibold mb-4">
                 Passion for dit velbefindende
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Tina Godtfeldt er uddannet akupunktør og har over 6 års erfaring med holistiske behandlinger. 
+                Vi er uddannede akupunktører og har over 6 års erfaring med holistiske behandlinger. 
                 Med en bred vifte af certificeringer inden for akupunktur, ansigtsbehandlinger og BARS 
-                tilbyder hun skræddersyede behandlinger i trygge, rolige rammer.
+                tilbyder vi skræddersyede behandlinger i trygge, rolige rammer.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 I Klinik Maluma handler det om at lytte til din krop og finde den rette balance. 
@@ -270,7 +270,7 @@ const Index = () => {
             Klar til at booke?
           </h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-            Åbningstider kun efter aftale – men meget fleksibel. Ring eller send en SMS.
+            Åbningstider kun efter aftale – men vi er meget fleksible. Ring eller send en SMS.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="rounded-full px-8">

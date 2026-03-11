@@ -116,7 +116,7 @@ export const treatments: Treatment[] = [
           "Små blå mærker",
           "Midlertidig ømhed"
         ],
-        paragraphs: ["Må ikke modtages hvis man har fået botox eller filler inden for de sidste 6 måneder."],
+        paragraphs: ["Må ikke modtages hvis man har fået Botox eller filler inden for de sidste 3 måneder."],
       },
     ],
   },
@@ -307,6 +307,7 @@ export const treatments: Treatment[] = [
         heading: "Hvordan foregår en behandling?",
         bullets: [
           "Du vasker fødderne grundigt først",
+          "Undlad at smøre fødder og ben med medicinske cremer inden behandlingen",
           "Du sætter fødderne i et bassin med mange Garra Rufa-fisk",
           "Fiskene napper forsigtigt i det yderste lag døde hudceller",
           "Behandlingen varer 30 minutter"
