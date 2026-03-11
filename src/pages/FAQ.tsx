@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "Hvor mange behandlinger har jeg brug for?",
-    a: "Det varierer fra person til person og afhænger af behandlingstypen. For ansigtsakupunktur anbefales typisk 6-10 behandlinger, mens andre behandlinger kan give effekt efter én gang. Tina rådgiver dig ved den første konsultation.",
+    a: "Det varierer fra person til person og afhænger af behandlingstypen. For ansigtsakupunktur anbefales typisk 6-10 behandlinger, mens andre behandlinger kan give effekt efter én gang. Vi rådgiver dig ved den første konsultation.",
   },
   {
     q: "Kan akupunktur kombineres med anden behandling?",
