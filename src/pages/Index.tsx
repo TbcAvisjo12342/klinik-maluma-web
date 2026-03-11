@@ -152,9 +152,9 @@ const Index = () => {
                 Passion for dit velbefindende
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Tina Godtfeldt er uddannet akupunktør og har over 6 års erfaring med holistiske behandlinger. 
+                Vi er uddannede akupunktører og har over 6 års erfaring med holistiske behandlinger. 
                 Med en bred vifte af certificeringer inden for akupunktur, ansigtsbehandlinger og BARS 
-                tilbyder hun skræddersyede behandlinger i trygge, rolige rammer.
+                tilbyder vi skræddersyede behandlinger i trygge, rolige rammer.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 I Klinik Maluma handler det om at lytte til din krop og finde den rette balance. 
