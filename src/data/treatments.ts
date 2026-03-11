@@ -116,7 +116,7 @@ export const treatments: Treatment[] = [
           "Små blå mærker",
           "Midlertidig ømhed"
         ],
-        paragraphs: ["Må ikke modtages hvis man har fået botox eller filler inden for de sidste 6 måneder."],
+        paragraphs: ["Må ikke modtages hvis man har fået Botox eller filler inden for de sidste 3 måneder."],
       },
     ],
   },
