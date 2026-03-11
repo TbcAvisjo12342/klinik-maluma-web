@@ -132,7 +132,7 @@ const Index = () => {
               className="relative"
             >
               <div className="rounded-2xl overflow-hidden aspect-[4/5]">
-                <img src={tinaImg} alt="Tina Godtfeldt – indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
+                <img src={tinaImg} alt="Indehaver af Klinik Maluma" className="w-full h-full object-cover object-top" />
               </div>
               <button
                 onClick={() => setLightboxOpen(true)}
