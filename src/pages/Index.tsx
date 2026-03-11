@@ -17,15 +17,16 @@ import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
-import earAcuImg from "@/assets/ear-acupuncture.jpg";
+import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
-import diamantSlibningImg from "@/assets/diamant-slibning.jpg";
+import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
-import massagestolImg from "@/assets/massagestol.jpg";
-import zoneterapiImg from "@/assets/zoneterapi.jpg";
+import massagestolImg from "@/assets/massagestol-new.png";
+import zoneterapiImg from "@/assets/zoneterapi-new.jpg";
 import voksningImg from "@/assets/voksning.jpg";
 import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
+import diplomerImg from "@/assets/diplomer.jpg";
 
 const treatmentImageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
