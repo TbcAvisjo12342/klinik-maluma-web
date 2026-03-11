@@ -109,7 +109,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h3 className="font-display text-xl font-semibold mb-3">Klinik Maluma</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Holistisk velvære og akupunktur i trygge rammer. Drevet af Tina Godtfeldt med over 6 års erfaring.
+                Holistisk velvære og akupunktur i trygge rammer. Over 6 års erfaring.
               </p>
               <div className="flex items-center gap-1 mt-3">
                 <span style={{ color: "hsl(45, 93%, 47%)" }}>★★★★★</span>

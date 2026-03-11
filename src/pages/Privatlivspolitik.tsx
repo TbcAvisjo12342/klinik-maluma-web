@@ -14,7 +14,6 @@ const Privatlivspolitik = () => {
               <h2 className="text-2xl font-display font-semibold text-foreground mb-3">Dataansvarlig</h2>
               <p>
                 Klinik Maluma<br />
-                Tina Godtfeldt<br />
                 Sibberupvej 13, 4684 Holmegaard<br />
                 Email: klinik.maluma@gmail.com<br />
                 Telefon: 40 55 84 51

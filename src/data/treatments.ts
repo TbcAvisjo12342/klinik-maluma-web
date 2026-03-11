@@ -307,6 +307,7 @@ export const treatments: Treatment[] = [
         heading: "Hvordan foregår en behandling?",
         bullets: [
           "Du vasker fødderne grundigt først",
+          "Undlad at smøre fødder og ben med medicinske cremer inden behandlingen",
           "Du sætter fødderne i et bassin med mange Garra Rufa-fisk",
           "Fiskene napper forsigtigt i det yderste lag døde hudceller",
           "Behandlingen varer 30 minutter"

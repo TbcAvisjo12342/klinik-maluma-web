@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "Hvad skal jeg gøre før en behandling?",
-    a: "Du behøver ikke forberede dig på noget særligt. Spis gerne et let måltid et par timer inden og undgå alkohol. Bær løstsiddende tøj for nemmere adgang til akupunkturpunkterne.",
+    a: "Du behøver ikke forberede dig på noget særligt. Spis gerne et let måltid et par timer inden, drik rigeligt med vand og undgå alkohol. Bær løstsiddende tøj for nemmere adgang til akupunkturpunkterne.",
   },
   {
     q: "Kan jeg købe produkter i klinikken?",

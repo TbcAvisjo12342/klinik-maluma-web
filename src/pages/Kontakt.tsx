@@ -75,7 +75,7 @@ const Kontakt = () => {
 
               <Button asChild size="lg" className="rounded-full px-8">
                 <a href="tel:+4540558451">
-                  <Phone className="w-4 h-4 mr-2" /> Ring til Tina
+                  <Phone className="w-4 h-4 mr-2" /> Ring til os
                 </a>
               </Button>
             </div>

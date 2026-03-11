@@ -270,7 +270,7 @@ const Index = () => {
             Klar til at booke?
           </h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-            Åbningstider kun efter aftale – men meget fleksibel. Ring eller send en SMS.
+            Åbningstider kun efter aftale – men vi er meget fleksible. Ring eller send en SMS.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="rounded-full px-8">

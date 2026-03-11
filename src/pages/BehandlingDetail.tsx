@@ -105,7 +105,7 @@ const BehandlingDetail = () => {
 
           <div className="mt-16 p-8 rounded-xl bg-card border text-center">
             <h3 className="font-display text-xl font-semibold mb-2">Vil du booke denne behandling?</h3>
-            <p className="text-sm text-muted-foreground mb-6">Ring eller send en SMS – Tina er meget fleksibel med tider.</p>
+            <p className="text-sm text-muted-foreground mb-6">Ring eller send en SMS – vi er meget fleksible med tider.</p>
             <Button asChild size="lg" className="rounded-full px-8">
               <a href="tel:+4540558451"><Phone className="w-4 h-4 mr-2" /> 40 55 84 51</a>
             </Button>
