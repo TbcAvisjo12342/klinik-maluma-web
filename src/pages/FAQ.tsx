@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     q: "Hvordan booker jeg en tid?",
-    a: "Ring til Tina på 40 55 84 51 eller send en SMS. Du kan også skrive på Messenger eller sende en mail til klinik.maluma@gmail.com. Tina er meget fleksibel med tider.",
+    a: "Ring til os på 40 55 84 51 eller send en SMS. Du kan også skrive på Messenger eller sende en mail til klinik.maluma@gmail.com. Vi er meget fleksible med tider.",
   },
   {
     q: "Hvad er jeres åbningstider?",
