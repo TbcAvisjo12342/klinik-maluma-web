@@ -9,7 +9,7 @@ const Kontakt = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-display font-semibold mb-4">Kontakt</h1>
           <p className="text-lg text-muted-foreground max-w-lg">
-            Har du spørgsmål eller vil du booke en tid? Du er altid velkommen til at kontakte Tina.
+            Har du spørgsmål eller vil du booke en tid? Du er altid velkommen til at kontakte os.
           </p>
         </div>
       </section>
