@@ -232,7 +232,7 @@ export const treatments: Treatment[] = [
           "Et diamantbesat hoved føres henover huden med let tryk",
           "Døde hudceller suges væk samtidig med slibningen",
           "Afslutning med beroligende serum og fugtighedscreme",
-          "Behandlingen varer ca. 120 minutter inkl. efterbehandling"
+          "Behandlingen varer ca. 90 minutter inkl. efterbehandling"
         ],
       },
       {
