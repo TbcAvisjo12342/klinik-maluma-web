@@ -129,9 +129,9 @@ export const treatments: Treatment[] = [
     icon: "✿",
     content: [
       {
-        heading: "Hvad er japansk ansigtsløftning?",
+        heading: "Hvad er japansk ansigtslifting?",
         paragraphs: [
-          "Japansk ansigtsløftning er en naturlig ansigtsbehandling, der kombinerer teknikker fra ansigtsmassage, akupressur og lymfedrænage. Den er inspireret af traditioner fra Japan og kaldes ofte et \"naturligt facelift\", fordi den arbejder med muskler, bindevæv og energibaner – uden kirurgi."
+          "Japansk ansigtslifting er en naturlig ansigtsbehandling, der kombinerer teknikker fra ansigtsmassage, akupressur og lymfedrænage. Den er inspireret af traditioner fra Japan og kaldes ofte et \"naturligt facelift\", fordi den arbejder med muskler, bindevæv og energibaner – uden kirurgi."
         ],
       },
       {
