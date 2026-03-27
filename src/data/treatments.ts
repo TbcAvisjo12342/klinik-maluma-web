@@ -618,4 +618,30 @@ export const treatments: Treatment[] = [
       },
     ],
   },
+  {
+    slug: "detox-fodbad",
+    title: "Detox Fodbad",
+    shortDescription: "Ion-teknologi og elektrolyse udrenser affaldsstoffer og giftstoffer fra kroppen gennem føddernes porer for øget velvære.",
+    duration: "20 min",
+    estimatedPrice: "100 kr.",
+    icon: "🫧",
+    content: [
+      {
+        heading: "Hvad er et detox fodbad?",
+        paragraphs: [
+          "Et detox fodbad er en behandlingsform, der bruger ion-teknologi og elektrolyse til at udrense affaldsstoffer, tungmetaller og uønskede giftstoffer fra kroppen gennem føddernes porer.",
+          "Fodbadet har til formål at balancere kroppens energi, øge velværet, forbedre cirkulationen og styrke immunforsvaret."
+        ],
+      },
+      {
+        heading: "Hvad gør et detox fodbad?",
+        bullets: [
+          "Udrensning & afgiftning – fodbadet bruger en sonde til at sende positive og negative ioner ud i vandet, hvilket stimulerer kroppens celler til at frigive ophobede affaldsstoffer og tungmetaller, som trækkes ud gennem de over 7.000 nerveender og 60 akupunkturpunkter under fødderne",
+          "Forbedret velvære & energi",
+          "Synlig effekt – vandet bliver ofte brunt eller grumset under behandlingen, hvilket tolkes som udskillelse af urenheder",
+          "Fysisk lindring – det kan afhjælpe hævede ben, trætte fødder, hudproblemer (som eksem/psoriasis) og fremme hurtigere restitution efter sygdom"
+        ],
+      },
+    ],
+  },
 ];
