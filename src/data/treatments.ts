@@ -215,7 +215,7 @@ export const treatments: Treatment[] = [
     slug: "diamant-slibning",
     title: "Diamant Slibning",
     shortDescription: "Avanceret hudfornyelse med diamantslibning der fjerner døde hudceller og stimulerer cellefornyelsen for en glattere og mere strålende hud.",
-    duration: "ca. 120 min",
+    duration: "ca. 90 min",
     estimatedPrice: "795 kr.",
     icon: "💎",
     content: [
