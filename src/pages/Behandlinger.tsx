@@ -12,6 +12,7 @@ import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+import oreakupunkturImg from "@/assets/oreakupunktur-realistic.jpg";
 import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
 import massagestolImg from "@/assets/massagestol-new.png";
