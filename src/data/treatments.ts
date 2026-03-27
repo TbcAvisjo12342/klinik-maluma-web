@@ -180,8 +180,8 @@ export const treatments: Treatment[] = [
   {
     slug: "luksus-ansigtsbehandling",
     title: "Luksus Ansigtsbehandling",
-    shortDescription: "Luksuriøs ansigtsbehandling med afrensning, forkur og dybdegående massage. 90 minutters ren forkælelse for huden.",
-    duration: "ca. 90 min",
+    shortDescription: "Luksuriøs ansigtsbehandling med afrensning, forkur og dybdegående massage. 75 minutters ren forkælelse for huden.",
+    duration: "ca. 75 min",
     estimatedPrice: "675 kr.",
     icon: "✧",
     content: [
