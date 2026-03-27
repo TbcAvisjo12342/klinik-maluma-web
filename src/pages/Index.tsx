@@ -39,10 +39,11 @@ const treatmentImageMap: Record<string, string> = {
   massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
-  oreakupunktur: sanziTreatmentImg,
+  oreakupunktur: zenImg,
   zoneterapi: zoneterapiImg,
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,
+  "detox-fodbad": detoxFodbadImg,
 };
 
 const fadeUp = {
