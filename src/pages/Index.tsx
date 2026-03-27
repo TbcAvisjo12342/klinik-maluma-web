@@ -19,6 +19,7 @@ import saunaImg from "@/assets/sauna.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
+import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
 import oreakupunkturImg from "@/assets/oreakupunktur-realistic.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
