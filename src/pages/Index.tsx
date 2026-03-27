@@ -31,7 +31,7 @@ import diplomerImg from "@/assets/diplomer.jpg";
 const treatmentImageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
   ansigtsakupunktur: ansigtsakupunkturImg,
-  "japansk-ansigtsloftning": sanziTreatmentImg,
+  "japansk-ansigtsloftning": zenImg,
   "luksus-ansigtsbehandling": faceMaskImg,
   "diamant-slibning": diamantSlibningImg,
   cupping: cuppingImg,
