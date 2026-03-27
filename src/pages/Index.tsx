@@ -6,7 +6,7 @@ import { ArrowRight, Star, Phone, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import heroSpa from "@/assets/hero-spa.jpg";
-import detoxFodbadImg from "@/assets/detox-fodbad.jpg";
+import detoxFodbadImg from "@/assets/detox-fodbad-clean.jpg";
 import hopProducts from "@/assets/hop-products.jpg";
 import bjorkProducts from "@/assets/bjork-products.png";
 import sanziProducts from "@/assets/sanzi-products.jpg";
@@ -20,6 +20,7 @@ import zenImg from "@/assets/zen-texture.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+import oreakupunkturImg from "@/assets/oreakupunktur-realistic.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
@@ -40,7 +41,7 @@ const treatmentImageMap: Record<string, string> = {
   massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
-  oreakupunktur: zenImg,
+  oreakupunktur: oreakupunkturImg,
   zoneterapi: zoneterapiImg,
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,

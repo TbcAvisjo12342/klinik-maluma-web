@@ -6,12 +6,13 @@ import { Button } from "@/components/ui/button";
 import akupunkturImg from "@/assets/akupunktur.jpg";
 import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
-import detoxFodbadImg from "@/assets/detox-fodbad.jpg";
+import detoxFodbadImg from "@/assets/detox-fodbad-clean.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import treatmentBedImg from "@/assets/treatment-bed.jpg";
 import sanziTreatmentImg from "@/assets/sanzi-treatment.jpg";
+import oreakupunkturImg from "@/assets/oreakupunktur-realistic.jpg";
 import diamantSlibningImg from "@/assets/diamant-slibning-new.png";
 import cuppingImg from "@/assets/cupping-treatment.jpg";
 import massagestolImg from "@/assets/massagestol-new.png";
@@ -30,7 +31,7 @@ const imageMap: Record<string, string> = {
   massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
-  oreakupunktur: zenImg,
+  oreakupunktur: oreakupunkturImg,
   zoneterapi: zoneterapiImg,
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,
