@@ -6,6 +6,7 @@ import { ArrowRight, Clock } from "lucide-react";
 import akupunkturImg from "@/assets/akupunktur.jpg";
 import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
+import detoxFodbadImg from "@/assets/detox-fodbad.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
