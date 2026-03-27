@@ -35,7 +35,6 @@ const imageMap: Record<string, string> = {
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,
   "detox-fodbad": detoxFodbadImg,
-  radiofrekvens: radiofrekvensImg,
 };
 
 const BehandlingDetail = () => {
