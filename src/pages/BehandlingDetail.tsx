@@ -22,7 +22,7 @@ import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
 const imageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
   ansigtsakupunktur: ansigtsakupunkturImg,
-  "japansk-ansigtsloftning": zenImg,
+  "japansk-ansigtsloftning": sanziTreatmentImg,
   "luksus-ansigtsbehandling": faceMaskImg,
   "diamant-slibning": diamantSlibningImg,
   cupping: cuppingImg,
@@ -30,7 +30,7 @@ const imageMap: Record<string, string> = {
   massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
-  oreakupunktur: sanziTreatmentImg,
+  oreakupunktur: zenImg,
   zoneterapi: zoneterapiImg,
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,
