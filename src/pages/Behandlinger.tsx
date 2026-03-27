@@ -6,6 +6,7 @@ import { ArrowRight, Clock } from "lucide-react";
 import akupunkturImg from "@/assets/akupunktur.jpg";
 import ansigtsakupunkturImg from "@/assets/ansigtsakupunktur.jpg";
 import zenImg from "@/assets/zen-texture.jpg";
+import detoxFodbadImg from "@/assets/detox-fodbad.jpg";
 import faceMaskImg from "@/assets/face-mask.jpg";
 import garraRufaImg from "@/assets/garra-rufa.jpg";
 import saunaImg from "@/assets/sauna.jpg";
@@ -21,7 +22,7 @@ import radiofrekvensImg from "@/assets/radiofrekvens.jpg";
 const imageMap: Record<string, string> = {
   akupunktur: akupunkturImg,
   ansigtsakupunktur: ansigtsakupunkturImg,
-  "japansk-ansigtsloftning": zenImg,
+  "japansk-ansigtsloftning": sanziTreatmentImg,
   "luksus-ansigtsbehandling": faceMaskImg,
   "diamant-slibning": diamantSlibningImg,
   cupping: cuppingImg,
@@ -29,10 +30,11 @@ const imageMap: Record<string, string> = {
   massagestol: massagestolImg,
   "infrarod-sauna-isbad": saunaImg,
   bars: treatmentBedImg,
-  oreakupunktur: sanziTreatmentImg,
+  oreakupunktur: zenImg,
   zoneterapi: zoneterapiImg,
   voksning: voksningImg,
   radiofrekvens: radiofrekvensImg,
+  "detox-fodbad": detoxFodbadImg,
 };
 
 const Behandlinger = () => {

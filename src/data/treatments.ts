@@ -122,16 +122,16 @@ export const treatments: Treatment[] = [
   },
   {
     slug: "japansk-ansigtsloftning",
-    title: "Japansk Ansigtsløftning",
+    title: "Japansk Ansigtslifting",
     shortDescription: "Naturligt facelift der kombinerer ansigtsmassage, akupressur og lymfedrænage. Løfter og opstrammer ansigtet uden kirurgi.",
     duration: "ca. 60 min",
     estimatedPrice: "550 kr.",
     icon: "✿",
     content: [
       {
-        heading: "Hvad er japansk ansigtsløftning?",
+        heading: "Hvad er japansk ansigtslifting?",
         paragraphs: [
-          "Japansk ansigtsløftning er en naturlig ansigtsbehandling, der kombinerer teknikker fra ansigtsmassage, akupressur og lymfedrænage. Den er inspireret af traditioner fra Japan og kaldes ofte et \"naturligt facelift\", fordi den arbejder med muskler, bindevæv og energibaner – uden kirurgi."
+          "Japansk ansigtslifting er en naturlig ansigtsbehandling, der kombinerer teknikker fra ansigtsmassage, akupressur og lymfedrænage. Den er inspireret af traditioner fra Japan og kaldes ofte et \"naturligt facelift\", fordi den arbejder med muskler, bindevæv og energibaner – uden kirurgi."
         ],
       },
       {
@@ -168,13 +168,20 @@ export const treatments: Treatment[] = [
           "Mange vælger et forløb på 4–6 behandlinger"
         ],
       },
+      {
+        heading: "Tilvalg",
+        bullets: [
+          "En kvick behandling uden masker – 350 kr. (ca. 30 min)",
+          "Mild syreansigtsbehandling fra Sanzi – 250 kr. (ca. 20 min) – Vigtigt: man må ikke tage sol de efterfølgende dage"
+        ],
+      },
     ],
   },
   {
     slug: "luksus-ansigtsbehandling",
     title: "Luksus Ansigtsbehandling",
-    shortDescription: "Luksuriøs ansigtsbehandling med afrensning, forkur og dybdegående massage. 90 minutters ren forkælelse for huden.",
-    duration: "ca. 90 min",
+    shortDescription: "Luksuriøs ansigtsbehandling med afrensning, forkur og dybdegående massage. 75 minutters ren forkælelse for huden.",
+    duration: "ca. 75 min",
     estimatedPrice: "675 kr.",
     icon: "✧",
     content: [
@@ -208,7 +215,7 @@ export const treatments: Treatment[] = [
     slug: "diamant-slibning",
     title: "Diamant Slibning",
     shortDescription: "Avanceret hudfornyelse med diamantslibning der fjerner døde hudceller og stimulerer cellefornyelsen for en glattere og mere strålende hud.",
-    duration: "ca. 120 min",
+    duration: "ca. 90 min",
     estimatedPrice: "795 kr.",
     icon: "💎",
     content: [
@@ -225,7 +232,7 @@ export const treatments: Treatment[] = [
           "Et diamantbesat hoved føres henover huden med let tryk",
           "Døde hudceller suges væk samtidig med slibningen",
           "Afslutning med beroligende serum og fugtighedscreme",
-          "Behandlingen varer ca. 120 minutter inkl. efterbehandling"
+          "Behandlingen varer ca. 90 minutter inkl. efterbehandling"
         ],
       },
       {
@@ -607,6 +614,32 @@ export const treatments: Treatment[] = [
         paragraphs: [
           "For de bedste resultater anbefales et kurforløb på 8–12 behandlinger, som efterfølgende vedligeholdes.",
           "15–30 min alt efter område. Fra 350 kr."
+        ],
+      },
+    ],
+  },
+  {
+    slug: "detox-fodbad",
+    title: "Detox Fodbad",
+    shortDescription: "Ion-teknologi og elektrolyse udrenser affaldsstoffer og giftstoffer fra kroppen gennem føddernes porer for øget velvære.",
+    duration: "20 min",
+    estimatedPrice: "100 kr.",
+    icon: "🫧",
+    content: [
+      {
+        heading: "Hvad er et detox fodbad?",
+        paragraphs: [
+          "Et detox fodbad er en behandlingsform, der bruger ion-teknologi og elektrolyse til at udrense affaldsstoffer, tungmetaller og uønskede giftstoffer fra kroppen gennem føddernes porer.",
+          "Fodbadet har til formål at balancere kroppens energi, øge velværet, forbedre cirkulationen og styrke immunforsvaret."
+        ],
+      },
+      {
+        heading: "Hvad gør et detox fodbad?",
+        bullets: [
+          "Udrensning & afgiftning – fodbadet bruger en sonde til at sende positive og negative ioner ud i vandet, hvilket stimulerer kroppens celler til at frigive ophobede affaldsstoffer og tungmetaller, som trækkes ud gennem de over 7.000 nerveender og 60 akupunkturpunkter under fødderne",
+          "Forbedret velvære & energi",
+          "Synlig effekt – vandet bliver ofte brunt eller grumset under behandlingen, hvilket tolkes som udskillelse af urenheder",
+          "Fysisk lindring – det kan afhjælpe hævede ben, trætte fødder, hudproblemer (som eksem/psoriasis) og fremme hurtigere restitution efter sygdom"
         ],
       },
     ],
