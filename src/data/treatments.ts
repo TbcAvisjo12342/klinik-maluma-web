@@ -168,6 +168,13 @@ export const treatments: Treatment[] = [
           "Mange vælger et forløb på 4–6 behandlinger"
         ],
       },
+      {
+        heading: "Tilvalg",
+        bullets: [
+          "En kvick behandling uden masker – 350 kr. (ca. 30 min)",
+          "Mild syreansigtsbehandling fra Sanzi – 250 kr. (ca. 20 min) – Vigtigt: man må ikke tage sol de efterfølgende dage"
+        ],
+      },
     ],
   },
   {
