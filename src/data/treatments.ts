@@ -122,7 +122,7 @@ export const treatments: Treatment[] = [
   },
   {
     slug: "japansk-ansigtsloftning",
-    title: "Japansk Ansigtsløftning",
+    title: "Japansk Ansigtslifting",
     shortDescription: "Naturligt facelift der kombinerer ansigtsmassage, akupressur og lymfedrænage. Løfter og opstrammer ansigtet uden kirurgi.",
     duration: "ca. 60 min",
     estimatedPrice: "550 kr.",
